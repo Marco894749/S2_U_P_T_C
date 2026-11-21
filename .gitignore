@@ -1,0 +1,25 @@
+# se va utilizar para decirle al control de version en este caso git que archivos va excluir y no le haga la trazabilidad
+/env
+.env
+env/
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+
+# Build and packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+
+
+
+
